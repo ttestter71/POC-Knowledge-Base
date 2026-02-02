@@ -39,15 +39,15 @@ status: Done
 
 2.  **搜尋產品**
     * 在產品列表中找到 **"iDRAC Enterprise"** 或 **"iDRAC Datacenter"** 項目。
-    * 點擊產品名稱進入詳細資訊頁面。
+    * 點選產品名稱進入詳細資訊頁面。
 
 3.  **綁定服務代碼 (Bind Service Tag)**
     * 找到 **"Bind to Service Tag"** (綁定至服務代碼) 選項。
     * 輸入目標伺服器的 Service Tag (例如：`ABC12D3`)。
-    * **注意**：此步驟不可逆，請務必確認 Tag 正確無誤。
+    * **注意**：**此步驟不可逆，請務必確認 Tag 正確無誤。**
 
 4.  **下載授權檔案**
-    * 綁定完成後，點擊 **"Keys available for download"**。
+    * 綁定完成後，點選 **"Keys available for download"**。
     * 下載格式為 `.xml` 的授權檔案 (例如：`ABC12D3_license.xml`)。
     * **建議**：將此檔案備份至安全位置 (NAS/雲端)，未來更換主機板時需重新匯入。
 
@@ -65,13 +65,13 @@ status: Done
 
 3.  **執行匯入操作 (關鍵步驟)**
     * 在授權列表表格中，找到 **Device** 為 `iDRAC` 或 `iDRAC9` 的那一列。
-    * **重要**：點擊該列最右側的 **"License Options" (許可選項)** 下拉選單。
+    * **重要**：點選該列最右側的 **"License Options" (許可選項)** 下拉選單。
     * 選擇 **"Import" (導入/匯入)**。
     * *(註：Dell UI 設計將匯入藏在下拉選單中，而非頂部按鈕)*。
 
 4.  **上傳檔案**
     * 在彈出視窗中瀏覽並選擇剛才下載的 `.xml` 檔案。
-    * 點擊 **Upload/Install**。
+    * 點選 **Upload/Install**。
     * 系統提示 "License imported successfully" 即完成。
 
 --- 
