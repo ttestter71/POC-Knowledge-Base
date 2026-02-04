@@ -1,20 +1,20 @@
-![knock knock](https://hackmd.io/_uploads/SyOP7iO8We.jpg)
-
-
 ---
 # TTEESSTTERER (YAML Metadata)
+
 type: test         # 文件類型 (SOP/故障排除/架構圖)
 
-device: test      # 設備型號
+device: test1      # 設備型號
 
-client: test           # 客戶代號
+client: test2           # 客戶代號
 
 tags: [test, test1, test2] # 關鍵字
 
-author: tester     # 撰寫人
+author: tester71     # 撰寫人
 
 status: Draft          # 狀態 (Draft/Review/Done)
 ---
+
+![knock knock](https://hackmd.io/_uploads/SyOP7iO8We.jpg)
 
 
 
