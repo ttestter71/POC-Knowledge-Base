@@ -31,5 +31,4 @@ status: Draft          # 狀態 (Draft/Review/Done)
 ## 3. 解決方案
 (最終解法)
 
-
-![knock](https://hackmd.io/_uploads/r1muXs_Ubx.png)
+![Flabbycatty](https://hackmd.io/_uploads/ByZuGoOUWl.png)
