@@ -1,0 +1,32 @@
+---
+# ==========================================
+#  AI 知識庫標準檔頭 (V2.2 - 2026/03/11 統合定案)
+#  適用職能：維運 (Ops) / 開發 (Dev) / 安控 (Sec) / 企劃 (Planning)
+#  所有欄位請務必保留，不適用者請填寫 N/A
+# ==========================================
+title: 
+date: 2026-03-11
+author: SYSadmin
+category: [Operation / Development / Security / Planning] # 四擇一
+status: Done
+
+# --- [維運/安控區] (不適用填 N/A) ---
+vendor: N/A        # (如: Dell, HPE, Cisco, Fortinet)
+device_type: N/A   # (如: Server, Network, Storage)
+model: N/A         # (如: R640, Gen10)
+error_code: N/A    # (故障排除必填，其餘 N/A)
+severity: N/A      # (如: Sev1, Sev2, N/A)
+threat_type: N/A   # (安控專用，如: Phishing, CVE)
+
+# --- [開發區] (不適用填 N/A) ---
+language: N/A      # (如: Python, Java, Shell)
+framework: N/A     # (如: SpringBoot, React)
+version: N/A       # (如: v1.0.2)
+
+# --- [企劃/專案區] (不適用填 N/A) ---
+project_id: N/A    # (如: KMS-2026)
+phase: N/A         # (如: Design, UAT, Production)
+
+# --- 檢索標籤區 ---
+tags: []           # (關鍵技術標籤集)
+---
