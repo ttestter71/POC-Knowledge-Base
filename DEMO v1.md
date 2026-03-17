@@ -1,0 +1,53 @@
+---
+# ==========================================
+#  AI 知識庫標準檔頭 (V2.3 - 2026/03/11 註解強化版)
+#  適用職能：維運 (Ops) / 開發 (Dev) / 安控 (Sec) / 企劃 (Planning)
+#  所有欄位請務必保留，不適用者請填寫 N/A
+# ==========================================
+title: TMP
+date: 2026-03-17
+author: 仁嘉
+category: Operation # 四擇一：Operation / Development / Security / Planning
+status: Done      # 選項：Draft / Review / Done
+
+# --- [維運/安控區] (不適用填 N/A) ---
+vendor: Dell        # 廠牌名稱 (如: Dell, HPE, Cisco, Fortinet)
+device_type: Server # 設備類型 (如: Server, Network, Storage)
+model: [PowerEdge R640, R740] # 具體型號 (如: R640, Gen10)
+error_code: N/A    # 錯誤代碼 (僅故障排除必填，其餘填 N/A)
+severity: N/A      # 嚴重程度 (如: Sev1 緊急, Sev2 重要, Sev3 一般, N/A)
+threat_type: N/A   # 資安威脅類型 (安控專用，如: Phishing, CVE)
+
+# --- [開發區] (不適用填 N/A) ---
+language: N/A      # 程式語言 (如: Python, Java, Shell)
+framework: N/A     # 開發框架 (如: SpringBoot, React)
+version: N/A       # 版本號 (如: v1.0.2)
+
+# --- [企劃/專案區] (不適用填 N/A) ---
+project_id: N/A    # 專案編號 (如: KMS-2026)
+phase: N/A         # 專案階段 (如: Design, UAT, Production)
+
+# --- 檢索標籤區 ---
+tags: [Dell, iDRAC, License, SOP, Import, RACADM, L2] # 關鍵技術標籤集
+---
+# Demonstration v1
+
+## 1. 目的 (Objective)
+DEMO 1。
+
+## 2. 前置準備 (Prerequisites)
+1.  **123**：456。
+2.  **789**：111。
+
+---
+## 3. 步驟 (Procedure)
+### 第一階段：222
+222
+
+### 第二階段：333
+333
+
+## 5. 常見問題與排查 (Troubleshooting)
+### 狀況：
+* **原因**：。
+* **解法**：。
