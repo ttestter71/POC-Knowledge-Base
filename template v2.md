@@ -28,46 +28,42 @@ phase: N/A         # 專案階段 (如: Design, UAT, Production)
 
 # --- 檢索標籤區 ---
 tags: [Dell, iDRAC, License, SOP, Import, RACADM, L2] # 關鍵技術標籤集
+
 ---
-# Dell License 匯入流程
+#### 以下內容為範例參考可直接刪除
+
+#  License 匯入流程
 
 ## 1. 目的 (Objective)
-說明如何將取得之 iDRAC 授權檔案。
+說明。
 
 ## 2. 前置準備 (Prerequisites)
-1.  **授權檔案 (.xml)**：需已取得對應 Service Tag 的有效授權檔案。
-3.  **設備歸屬確認 (建議)**：建議先完成 **所有權轉移 (Ownership Transfer)**。避免區域限制 (Region Mismatch) 導致綁定失敗。
-4.  **網路連線**：操作電腦需能連線至 Dell 官網及目標伺服器的 iDRAC 管理 IP。
-5.  **工具**：使用瀏覽器 (Chrome/Edge)。
+1.  **111**：222。
+5.  **111**：222。
 
 ---
 ## 3. 操作步驟 (Procedure)
-### 第一階段：取得授權檔案 (以 Dell Digital Locker 為例)
-1.  **登入平台**：前往 [Dell Digital Locker] 
-2.  **綁定服務代碼 (Bind Service Tag)**：
-    * 找到 "iDRAC Enterprise" 項目。
-    * 點選 **"Bind to Service Tag"**，輸入Service Tag。
-    * **注意**：此步驟不可逆，請務必確認 Tag 正確無誤。
-3.  **下載授權檔案**：
+### 第一階段：qqq
+1.  **登入平台**：111
+2.  111：
+    * 222。
+    * 222。
 
-### 第二階段：授權匯入 (方法 A：Web UI 圖形介面)
-1.  **登入 iDRAC**：
+
+### 第二階段：222
+1.  **登入**：
 2.  進入授權頁面：
 3.  **執行匯入**：
 4.  **上傳檔案**：
 
-### 第三階段：授權匯入
-#### 透過 SSH 登入 iDRAC (Local SSH)
 ~~~bash
 ssh root@192.168.1.120
-racadm license import -f tftp://<TFTP_IP>/<filename.xml> -c idrac.embedded.1
 ~~~
 
 ---
 ## 4. 驗證結果 (Verification)
-1.  重新整理 頁面。
-2.  **Status** 應顯示綠色勾勾 (OK)。
-3.  **License Type** 應顯示 **"Perpetual"** 。
+1.  。
+2.  。
 
 ## 5. 常見問題與排查 (Troubleshooting)
 ### 狀況：
