@@ -4,18 +4,20 @@
 #  所有欄位請務必保留，不適用者請填寫 N/A
 # ==========================================
 title: TMP # hackmd檔案的標題
-date: 2026-03-17
+date: 2026-03-19
 author: 仁嘉
 category: Operation # 四擇一：Operation / Development / Security / Planning
-status: Done      # 選項：Draft / Review / Done
+status: Draft      # 選項：Draft / Review / Done
 
-# --- [維運/安控區] (不適用填 N/A) ---
-vendor: Dell        # 廠牌名稱 (如: Dell, HPE, Cisco, Fortinet)
-device_type: Server # 設備類型 (如: Server, Network, Storage)
-model: [PowerEdge R640, R740] # 具體型號 (如: R640, Gen10)
-error_code: N/A    # 錯誤代碼 (僅故障排除必填，其餘填 N/A)
-severity: N/A      # 嚴重程度 (如: Sev1 緊急, Sev2 重要, Sev3 一般, N/A)
-threat_type: N/A   # 資安威脅類型 (安控專用，如: Phishing, CVE)
+# --- [維運/安控區] (不適用填 [N/A]) ---
+vendor: [Dell]                # 廠牌名稱 (支援多值，如: [Dell, HPE, Fortinet])
+device_type: [Server]         # 設備類型 (支援多值，如: [Server, Network])
+model: [PowerEdge R640, R740] # 具體型號 (支援多值填寫)
+target_env: [iDRAC]           # 目標操作環境/介面 (如: [Linux], [Windows], [iDRAC])
+required_privilege: [root]    # 執行所需權限 (如: [root], [Administrator], [User])
+error_code: [N/A]             # 錯誤代碼 (僅故障排除必填，其餘填 [N/A])
+severity: [N/A]               # 嚴重程度 (單一或多值，如: [Sev2], [N/A])
+threat_type: [N/A]            # 資安威脅類型 (安控專用，如: [Phishing], [N/A])
 
 # --- [開發區] (不適用填 N/A) ---
 language: N/A      # 程式語言 (如: Python, Java, Shell)
